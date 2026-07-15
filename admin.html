@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7X GAMING - Admin Panel</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.container{
+max-width:1000px;
+margin:40px auto;
+padding:20px;
+}
+
+.player-card{
+background:#111827;
+border:2px solid cyan;
+border-radius:15px;
+padding:20px;
+margin:20px 0;
+box-shadow:0 0 15px cyan;
+}
+
+.player-card h2{
+color:cyan;
+margin-bottom:10px;
+}
+
+.player-card input{
+width:100%;
+padding:12px;
+margin:8px 0;
+border-radius:8px;
+border:none;
+}
+
+.player-card button{
+width:100%;
+margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">🎮 7X GAMING ADMIN</div>
+
+</header>
+
+<div class="container">
+
+<h1 style="text-align:center;color:cyan;">
+Registered Players
+</h1>
+
+<div id="playersList">
+
+<!-- Firebase se Players yaha dikhaye jayenge -->
+
+</div>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
